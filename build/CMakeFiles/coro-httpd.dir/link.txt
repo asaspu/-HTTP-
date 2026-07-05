@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -Wall "CMakeFiles/coro-httpd.dir/main.cpp.o" "CMakeFiles/coro-httpd.dir/coroutine.cpp.o" "CMakeFiles/coro-httpd.dir/http_server.cpp.o" -o coro-httpd  -lpthread
