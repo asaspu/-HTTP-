@@ -45,17 +45,8 @@ SO_REUSEPORT 端口复用，多线程均衡接收客户端连接
    cmake ..
    make -j4
    
-2. 准备静态资源
-   在 build 目录内运行
+2. 访问服务
    
-   mkdir www
-   
-   echo '<h1>协程HTTP服务器测试页面</h1>' > www/index.html
-   
-   ./coro-httpd
-   
-4. 访问服务
-5. 
    开另一个终端：./telnet 127.0.0.1 8080
    
 📌 可拓展开发方向
